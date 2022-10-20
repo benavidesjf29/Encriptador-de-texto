@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="img/favicon.ico" type="image/x-icon">   
+        <title>Encriptador de Texto - JavaScript</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <h1 class="titulo-principal">Encriptador de texto - <strong>JavaScript</strong></h1>
+        </header>
+
+        <main class="main">
+            <section class="section-encriptador">
+                <form id="formulario"></form>
+                    <textarea class="input-texto1" name="texto-encriptador" id="texto-encriptador" rows="10" cols="40" placeholder="Ingrese el texto aquí..."></textarea>
+                    <div class="texto-informacion">
+                        <img src="img/alert.png">
+                        <p>Solo letras minúsculas y sin acentos</p>
+                    </div>
+                    <div class="botones-contenido"></div>
+                        <input class="boton-encriptar" id="boton-encriptar" type="submit" value="Encriptar">
+                        <input class="boton-desencriptar" id="boton-desencriptar" type="submit" value="Desencriptar">
+                    </div>
+                </form>
+            </section>
+
+            <section class="section-desencriptador">
+                <textarea class="input-texto2" name="texto-desencriptador" id="texto-desencriptador" rows="10" cols="40" readonly="readonly" oncopy="return false" onpaste="return false"></textarea>
+                <div id="elemento-flotante">
+                    <img src="img/Muñeco.png">
+                    <p class="mensaje-principal">Ningún mensaje fue<br>encontrado</p>
+                    <p class="mensaje-secundario">Ingresa el texto que desees encriptar o<br>desencriptar</p>
+                </div>
+                <div id="boton-copiar">
+                    <input class="copiar" id="copiar" name="boton-copiar" type="submit" value="Copiar">
+                </div>
+            </section>    
+        </main>
+
+        <footer>
+            <p>Juan Felipe Benavides&copy; 2022</p>
+        </footer>
+
+        <script src="js/js.js"></script>
+    </body>
+
+</html>
+

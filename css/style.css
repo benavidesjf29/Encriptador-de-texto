@@ -1,0 +1,170 @@
+body{
+    background: url(../img/bg.jpg);
+}
+
+main{
+    text-align: center;
+}
+
+/*Header*/
+header h1{
+    padding: 1.5%;
+    margin: 10px 0 5px 0;
+    text-align: center;
+    font-family: 'Space Mono', monospace; 
+    font-size: 25px;
+    color: #ffffff;
+    text-shadow: 2px 2px 3px #000000;
+}
+
+header strong{
+    font-weight: bold;
+}
+
+/*Bloque izquierdo*/
+.section-encriptador{
+    vertical-align:top;
+    display: inline-block;
+    padding: 1rem;
+    margin: 0 1rem 0.5rem 1rem;
+    box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    border-radius: 0.5rem;
+    width: 350px; 
+    height: 440px;
+}
+
+.input-texto1{
+    width: 340px; 
+    height:340px;
+    font-family: 'Space Mono', monospace; 
+    font-size: 20px;
+    color: #000000;
+    border: 0;
+    resize: none;
+}
+
+.input-texto1:focus{
+    outline: none;
+}
+
+.input-texto1::placeholder{
+    color: #000000;
+}
+
+.texto-informacion img{
+    display: inline-block;
+    width: 11px; height: 11px;
+    margin: 5px 2px 0 0;
+}
+
+.texto-informacion p{
+    display: inline-block;
+    font-family: 'Space Mono', monospace; 
+    color: #3b3b3b;
+    font-size: 13px;
+    font-style: bold;
+}
+
+.botones-contenido{
+    margin: 12px 0 0 0;
+}
+
+.boton-encriptar{
+    background: #161616c5;
+    border-radius: 13px;
+    font-family: 'Space Mono', monospace; 
+    font-size: 13px; 
+    color: #ffffff;
+    width: 130px; 
+    height: 40px;
+    border: 0;
+    margin: 15px;
+}
+
+.boton-desencriptar{
+    background: #161616c5;
+    border-radius: 13px;
+    font-family: 'Space Mono', monospace; 
+    font-size: 13px; 
+    color: #ffffff;
+    width: 130px; 
+    height: 40px;
+    border: 1px;
+    margin: 15px;
+}
+
+/*Bloque derecho*/
+.section-desencriptador{
+    display: inline-block;
+    vertical-align:top;
+    padding: 1rem;
+    margin: 0 1rem 0 1rem;
+    box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    border-radius: 0.5rem;
+    width: 350px; 
+    height: 440px;
+}
+
+.input-texto2{
+    width: 340px; 
+    height:340px;
+    font-family: 'Space Mono', monospace; 
+    font-size: 20px;
+    color: #000000;
+    border: 0;
+    resize: none;
+    visibility: hidden;
+}
+
+.input-texto2:focus{
+    outline: none;
+}
+
+#elemento-flotante{
+    position: absolute;
+    transform: translate(7%, -80%);
+}
+
+.mensaje-principal{
+    padding: 3%;
+    font-family: 'Space Mono', monospace; 
+    font-size: 23px; 
+    color: #000000;
+    font-weight: bold;
+}
+
+.mensaje-secundario{
+    padding: 2%;
+    font-family: 'Space Mono', monospace; 
+    font-size: 12px; 
+    color: #000000;
+}
+
+#boton-copiar{
+    visibility: hidden;
+}
+
+.copiar{
+    background: #161616c5;
+    border-radius: 13px;
+    font-family: 'Space Mono', monospace; 
+    font-size: 13px; 
+    color: #0A3871;
+    width: 130px; height: 40px;
+    border: 0;
+    color: #ffffff;
+    margin: 15px;
+    transform: translate(0, 75%);
+}
+
+/*Footer*/
+footer p{
+    margin: 20px 0 0 0;
+    text-align: center;
+    font-family: 'Space Mono', monospace; 
+    font-size: 15px;
+    color: #ffffff;
+    text-shadow: 2px 2px 3px #000000;
+}
