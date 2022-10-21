@@ -5,6 +5,9 @@ const textoDesencriptador = document.getElementById('texto-desencriptador');
 const botonCopiar = document.getElementById('boton-copiar');
 const aplicarLetras ='^[a-z !ñ]+$';
 
+function minus(e) {
+    e.value = e.value.toLowerCase();
+}
 //Ejecución de eventos a traves del DOM.
 document.addEventListener('DOMContentLoaded', () => {
     botonEncriptar.addEventListener('click', encriptarTexto);
