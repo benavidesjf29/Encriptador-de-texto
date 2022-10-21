@@ -6,32 +6,18 @@ main{
     text-align: center;
 }
 
-/*Header*/
-header h1{
-    padding: 1.5%;
-    margin: 10px 0 5px 0;
-    text-align: center;
-    font-family: 'Space Mono', monospace; 
-    font-size: 25px;
-    color: #ffffff;
-    text-shadow: 2px 2px 3px #000000;
-}
-
-header strong{
-    font-weight: bold;
-}
-
 /*Bloque izquierdo*/
 .section-encriptador{
     vertical-align:top;
     display: inline-block;
     padding: 1rem;
-    margin: 0 1rem 0.5rem 1rem;
-    box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.2);
+    margin: 3rem 1rem 0.5rem 1rem;
+    box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 1);
     background-color: white;
     border-radius: 0.5rem;
     width: 350px; 
     height: 440px;
+    opacity: 0.5;
 }
 
 .input-texto1{
@@ -99,12 +85,13 @@ header strong{
     display: inline-block;
     vertical-align:top;
     padding: 1rem;
-    margin: 0 1rem 0 1rem;
+    margin: 3rem 1rem 0 1rem;
     box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.2);
     background-color: white;
     border-radius: 0.5rem;
     width: 350px; 
     height: 440px;
+    opacity: 0.5;
 }
 
 .input-texto2{
@@ -161,10 +148,11 @@ header strong{
 
 /*Footer*/
 footer p{
-    margin: 20px 0 0 0;
+    margin: 30px 0 30px 0;
     text-align: center;
     font-family: 'Space Mono', monospace; 
     font-size: 15px;
     color: #ffffff;
     text-shadow: 2px 2px 3px #000000;
+    opacity: 0.5;
 }
